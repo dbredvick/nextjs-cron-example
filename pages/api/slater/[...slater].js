@@ -3,7 +3,7 @@ const config = {
   queues: [
     {
       name: "helloWorld",
-      schedule: "0 7 * * *", // 7AM GMT
+      schedule: "*/5 * * * *", // Every five minutes
       handler: async (event, success, failure) => {
         try {
           const results = await fetch(
