@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project uses [Slater](https://tryslater.com) to run cron jobs inside a Next.js application [(read more)](https://tryslater.com)
 
-This project uses [Slater](https://tryslater.com) to run cron jobs inside a Next.js application.
+To add a cron job to your application, install the Vercel integration and then create a `pages/api/[...slater.js]` file similar to the one in this example.
 
 ## Getting Started
 
