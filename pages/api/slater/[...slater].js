@@ -1,6 +1,6 @@
 import { slater } from "@slaterjs/next";
 const config = {
-  queues: [
+  tasks: [
     {
       name: "helloWorld",
       schedule: "*/5 * * * *", // Every five minutes
